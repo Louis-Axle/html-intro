@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contact Form </title>
+    </head>
+    <body>
+        <h1> Contact Us </h1>
+        <form>
+            <label for="fullname"><strong>Full Name:</strong></label><br>
+            <input type="text" id="full name" name="full name" required/> <br>
+            <br/>
+           
+            <label for="email"><strong>Email Address:</label><br>
+            <input type="email" id="email" name="email" required /> </br> <br>
+
+            <label for="phone"><strong>Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required /> <br> <br>
+
+            <label> Gender:</label><br>
+            <input type="radio" id="option 1" name="btn" value="option 1" /> Male <br>
+            <input type="radio" id="option 2" name="btn" value="option 2" /> Female <br> <br>
+
+            <label> Interests: </label> <br> <br>
+            <input type="checkbox" id="checkbox" name="checkbox"> Basket Ball <br>
+            <input type="checkbox" id="checkbox" name="checkbox"> Football <br>
+            <input type="checkbox" id="checkbox" name="checkbox"> Volleyball <br>
+            <input type="checkbox" id="checkbox" name="checkbox"> Long tennis <br>
+            <input type="checkbox" id="checkbox" name="checkbox"> Lacrose <br>
+            <input type="checkbox" id="checkbox" name="checkbox"> Table Tennis <br>
+            <input type="checkbox" id="checkbox" name="checkbox"> Other: <br>
+            <input type="text" value="Specify here" /> <br> <br>
+
+            <label for="Degree Of Skill_dropdown"> Choose Level of Proficiency:</label>
+            <select name="Degree of Skill">
+                <option value="Beginner"> Beginner </option>
+                <option value="Intermediate"> Intermediate </option>
+                <option value="Professional"> Professional </option>
+                <option value="Master"> Master </option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="textarea"> Tell Us More: </label> <br>
+            <textarea rows="15" cols="35"> </textarea>
+            <input type="submit" value="Register" />
+        <!--Submit form-->
+            <form action="https://formsubmit.co/louisibuzo.6@gmail.com"
+           method="POST" enctype="multipart/form-data" target="_blank">
+
+           <!--CAPTCHA-->
+           <input type="hidden" name="_captcha" value="true">
+
+          <!--Re direct to thank you page-->
+           <input type="hidden" name="_next"
+           value=""
+
+
+
+
+        </form>
+    </body>
+</html>
